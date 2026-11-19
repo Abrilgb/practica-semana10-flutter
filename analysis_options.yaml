@@ -1,0 +1,7 @@
+analyzer:
+  errors:
+    # Evita ruido por el estilo de nombres en español.
+    non_constant_identifier_names: ignore
+  exclude:
+    - build/**
+    - android/**
